@@ -1,0 +1,2 @@
+ACTION=="add", SUBSYSTEM=="input",  ATTRS{idProduct}=="0526",  ATTRS{idVendor}=="2563", RUN+="/usr/local/bin/controller.sh"
+
