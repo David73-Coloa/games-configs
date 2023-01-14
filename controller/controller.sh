@@ -1,4 +1,9 @@
 #!/bin/bash
+: '
+to get info about controller use:udevadm info /dev/input/js0 
+to get attr info of the controller use: udevadm info -ap /devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/0003:2563:0526.0014/input/input53/js0
+
+'
 echo Loaded_ > /tmp/controller.txt
 counter=0
 mainEvent=""
