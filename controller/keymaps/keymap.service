@@ -1,0 +1,11 @@
+[Unit]
+Description=Keymap service
+
+[Service]
+Type=simple
+ExecStart=/home/davidxl/keymap.sh
+WorkingDirectory=/home/davidxl
+Restart=on-failure
+RestartSec=10
+[Install]
+WantedBy=default.target

@@ -1,0 +1,4 @@
+ctrl + alt + w
+  notify-send "Ctrl+Alt+w pressed" && sudo ~/games-configs/controller/commands/controller.sh 
+ctrl + alt + o 
+  notify-send "Ctrl+alt+o pressed" && sudo killall xboxdrv
